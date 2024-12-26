@@ -13,16 +13,16 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <title>لوحة التحكم بسيطة</title>
 
     <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="dist/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{@asset('dist/font-awesome/css/font-awesome.min.css')}}">
     <!-- Theme style -->
-    <link rel="stylesheet" href="dist/adminlte/css/adminlte.min.css">
+    <link rel="stylesheet" href="{{@asset('dist/adminlte/css/adminlte.min.css')}}">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
     <!-- bootstrap rtl -->
-    <link rel="stylesheet" href="dist/adminlte/css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="{{asset('dist/adminlte/css/bootstrap-rtl.min.css')}}">
     <!-- template rtl version -->
-    <link rel="stylesheet" href="dist/adminlte/css/custom-style.css">
+    <link rel="stylesheet" href="{{asset('dist/adminlte/css/custom-style.css')}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
@@ -69,7 +69,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 img-circle">
+                                <img src="{{asset('dist/img/user1-128x128.jpg')}}" alt="User Avatar" class="img-size-50 ml-3 img-circle">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         بدران عوض
@@ -85,7 +85,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle ml-3">
+                                <img src="{{asset('dist/img/user8-128x128.jpg')}}" alt="User Avatar" class="img-size-50 img-circle ml-3">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         پیمان احمدی
@@ -101,7 +101,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle ml-3">
+                                <img src="{{asset('dist/img/user3-128x128.jpg')}}" alt="User Avatar" class="img-size-50 img-circle ml-3">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         سارا وکیلی
@@ -155,7 +155,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
             <a href="index3.html" class="brand-link">
-                <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+                <img src="{{asset('dist/img/AdminLTELogo.png')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
                 <span class="brand-text font-weight-light">لوحة التحكم</span>
             </a>
 
@@ -268,9 +268,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- REQUIRED SCRIPTS -->
 
     <!-- jQuery -->
-    <script src="dist/jquery/jquery.min.js"></script>
+    <script src="{{asset('dist/jquery/jquery.min.js')}}"></script>
     <!-- Bootstrap 4 -->
-    <script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{{asset('dist/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
     <!-- AdminLTE App -->
-    <script src="dist/adminlte/js/adminlte.min.js"></script>
+    <script src="{{asset('dist/adminlte/js/adminlte.min.js')}}"></script>
 </body>

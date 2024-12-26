@@ -24,7 +24,7 @@
                             <td>{{$contact->last_name}}</td>
                             <td>{{$contact->email}}</td>
                             <td><a href="{{url('destroy/'.$contact->id)}}" class="btn btn-danger">حذف</a></td>
-                            <td><a href="" class="btn btn-primary">تعديل</a></td>
+                            <td><a href="{{url('edit/'.$contact->id)}}" class="btn btn-primary">تعديل</a></td>
                           </tr>
                           @endforeach
                          

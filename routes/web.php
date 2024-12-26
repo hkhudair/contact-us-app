@@ -11,3 +11,7 @@ Route::get('create', [ContactController::class,'create']);
 Route::post('store', [ContactController::class,'store']);
 
 Route::get('destroy/{id}', [ContactController::class,'destroy']);
+
+Route::get('edit/{id}', [ContactController::class,'edit']);
+
+Route::post('update/{id}', [ContactController::class,'update']);
